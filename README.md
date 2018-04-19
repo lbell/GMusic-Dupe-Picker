@@ -12,6 +12,8 @@ Simply download the script and run `python <scriptname>.py`
 
 Login, then highlight the version(s) of each song you want to DELETE using the `arrow keys` and `spacebar`. Hit `enter` to blast duplicates and go to the next grouping.
 
+Hitting `enter` with no selection will skip. `Ctrl-x` will exit.
+
 Listening to this while doing it helps: https://youtu.be/rY0WxgSXdEE?t=5s
 
 ## Requires:
