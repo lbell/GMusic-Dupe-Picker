@@ -1,7 +1,7 @@
 # GMusic-Dupe-Picker
 Interactive Python script for selectively deleting duplicate songs in a Google Play Music library.
 
-Let's face it: although Google Music excels in a lot of areas, library management is not one of those areas. Rather visually scanning through your music to find duplicates, and right-click, delete, confirming the ones you want to get rid of for hours on end, use this wholly analog script to quickly blast duplicate songs in your library.
+Let's face it: although Google Music excels in a lot of areas, library management is not one of those areas. Rather than visually scanning through your music online to find duplicates, then right-clicking, finding delete, confirming the ones you want to get rid of for hours on end, use this wholly analog script to quickly blast duplicate songs in your library.
 
 Finds songs based on Artist and Song name (without regards to album) so you can decide if you want to keep the live version of song X or the studio version, or both.
 
