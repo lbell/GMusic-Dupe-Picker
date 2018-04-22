@@ -42,22 +42,26 @@ conn = False
 
 print("\n")
 while not conn:
-    conn = client.login(str(raw_input('Username:')), getpass(), Mobileclient.FROM_MAC_ADDRESS)
+    conn = client.login(
+        str(raw_input('Username:')),
+        getpass(),
+        Mobileclient.FROM_MAC_ADDRESS
+    )
 
 print("\n")
 
 print('Getting updated list of all songs. (This may take a while)')
-# all_songs = client.get_all_songs()
+all_songs = client.get_all_songs()
 
 ####################################
 # Reduce api calls during dev and moderately speed up boot
 # ##################################
-import pickle
+# import pickle
 # with open('pickledsongs', 'wb') as fp:
 #     pickle.dump(all_songs, fp)
-
-with open('pickledsongs', 'rb') as fp:
-    all_songs = pickle.load(fp)
+#
+# with open('pickledsongs', 'rb') as fp:
+#     all_songs = pickle.load(fp)
 ####################################
 
 print('Processing %s songs...' % (len(all_songs)))
